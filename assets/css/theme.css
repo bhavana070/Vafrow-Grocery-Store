@@ -339,7 +339,15 @@ a, .btn, button {
     transition: all 0.4s ease-in-out;
     color: #333;
 }
+.wrapper {
+    overflow-x: hidden;
+}
 
+.boxed .wrapper {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 a:hover,
 a:active,
 a:focus {
