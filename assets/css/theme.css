@@ -78,7 +78,16 @@
     margin: -100px 0 0 -100px;
     /* is width and height divided by two */
   }
+.ts-carousel-blockquote .owl-item.active figure,
+.ts-carousel-blockquote .owl-item.active p,
+.ts-carousel-blockquote .owl-item.active .blockquote-footer {
+    opacity: 1;
+    transform: translateY(0);
+}
 
+.ts-carousel-blockquote .owl-item.active p {
+    transition-delay: .1s;
+}
 /*---------------- 1.1 Preloader Ends ------------------*/
 
 /*---------------- 1.2 Global properties (body, common classes, structure etc) Starts ----------------------*/
