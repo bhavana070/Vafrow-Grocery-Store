@@ -153,7 +153,15 @@ body {
 .no-pad-right {
     padding-right: 0;
 }
+.wrapper {
+    overflow-x: hidden;
+}
 
+.boxed .wrapper {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 .no-pad-left {
     padding-left: 0;
 }
