@@ -84,7 +84,15 @@
     opacity: 1;
     transform: translateY(0);
 }
+.wrapper {
+    overflow-x: hidden;
+}
 
+.boxed .wrapper {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 .ts-carousel-blockquote .owl-item.active p {
     transition-delay: .1s;
 }
